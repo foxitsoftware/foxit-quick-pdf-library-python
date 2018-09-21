@@ -8,7 +8,7 @@ The files in this repository contain classes that make it as easy as possible to
 ### Setup
 Simply import the Python file and then create an instance of the class.
 
-The class will dynamically connect to the QPL binary, so it will need to kknow the binary location. The easiest is to simply put the binary in the same directory as your Python script and create the class without any parameters. Alternatively a directory path can be provided, or the actual path to the QPL binary.
+The class will dynamically connect to the QPL binary, so it will need to know the binary location. The easiest is to simply put the binary in the same directory as your Python script and create the class without any parameters. Alternatively a directory path can be provided, or the actual path to the QPL binary.
 
 ```python
 # On Windows use FoxitQPLDLL1611, on macOS use FoxitQPLmacOS1611 and on Linux use FoxitQPLLinux1611
