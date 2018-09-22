@@ -21,7 +21,7 @@ class PDFLibrary:
       if 8 * struct.calcsize("P") == 32:
         dplFile = "libQPLLinux1611-x86.so"
       else:
-        dplFile = "libQPLLinux1611-86_64.so"
+        dplFile = "libQPLLinux1611-x86_64.so"
     else:
       if os.path.isfile(pathOrFile):
          dplFile = pathOrFile
